@@ -1,0 +1,32 @@
+
+.container-cards{
+  text-align: center;
+  background-color: #c7e3d6 ;
+  width: 100vw;
+  height: 550px;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cards img {
+  width: 150px;
+}
+
+.container-cards h2{
+  padding: 30px;
+}
+.card-profile, .card-events, .card-friends {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 350px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 5px solid rgb(230,230,230);
+}
